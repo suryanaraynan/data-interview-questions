@@ -1,0 +1,31 @@
+name: Check questions
+
+on:
+  push:
+    branches: [main]
+    paths: ["questions/**", "requirements.txt", "tools/viz_style.py"]
+  pull_request:
+
+jobs:
+  run-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run examples for changed questions
+        run: |
+          set -e
+          dirs=$(git diff --name-only HEAD~1 HEAD -- questions/ | cut -d/ -f2 | sort -u | grep -v '^_template$' || true)
+          for d in $dirs; do
+            echo "::group::questions/$d"
+            test -f "questions/$d/meta.json" || { echo "missing meta.json"; exit 1; }
+            test -f "questions/$d/README.md" || { echo "missing README.md"; exit 1; }
+            if [ -f "questions/$d/example.py" ]; then (cd "questions/$d" && timeout 120 python example.py); fi
+            echo "::endgroup::"
+          done

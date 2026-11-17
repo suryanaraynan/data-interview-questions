@@ -1,0 +1,43 @@
+# Data Interview Questions
+
+**The most-asked technical interview questions for data analyst, data scientist and data engineer roles. Each one is answered so you can say it out loud, with a runnable example.**
+
+Every question has:
+
+| Section | What you get |
+|---|---|
+| The 30-second answer | What to say first, in spoken English |
+| The deeper answer | What turns a correct answer into a strong one |
+| Example | Runnable SQL / Python with real output, and a visual where it helps |
+| Common wrong answers | The traps interviewers are listening for |
+| Follow-ups | The next questions they'll ask, with short answers |
+| Explain it to a non-technical person | Because half of every data job is this |
+
+## How questions are chosen
+
+Questions are ranked by how often they appear across frequency-ranked public sources: candidate-reported answer counts, frequency-ordered question lists, and analyses of real interviews. The full ranked bank and its sources are in [`questions.json`](questions.json). Tier 1 questions appear across several sources or at the top of a ranked list, and they're answered first.
+
+Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments, ML), **Engineer** (modelling, pipelines, Spark/lakehouse), plus **LLM/RAG** and **behavioural** questions.
+
+## Questions
+
+<!-- INDEX:START -->
+**1 question answered** · SQL: 1
+
+### SQL
+
+| # | Question | Roles | Tier |
+|---:|---|---|:---:|
+| 001 | [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](questions/001-top-earner-per-department/) | Analyst, Scientist, Engineer | 1 |
+<!-- INDEX:END -->
+
+## Run an example
+
+```bash
+pip install -r requirements.txt
+python questions/<folder>/example.py
+```
+
+Deeper, end-to-end versions of these ideas live in **[Data Explained](https://github.com/suryanaraynan/data-explained)**: real-world case files explained for technical and non-technical readers.
+
+*Drafted with AI assistance; I review every answer, and every example runs in CI.*

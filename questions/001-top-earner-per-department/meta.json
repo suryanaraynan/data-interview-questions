@@ -1,0 +1,11 @@
+{
+  "number": 1,
+  "rank": 1,
+  "date": "2026-11-17",
+  "slug": "001-top-earner-per-department",
+  "question": "Find the highest-paid employee in each department. Then the top 3. What changes with ties?",
+  "short_title": "Top earner per department (and what ties do)",
+  "topic": "sql",
+  "roles": ["analyst", "scientist", "engineer"],
+  "tier": 1
+}

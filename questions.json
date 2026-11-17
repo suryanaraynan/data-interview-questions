@@ -1,0 +1,1482 @@
+{
+ "method": "Ranked by how often each question or pattern appears across frequency-ranked public sources (candidate-reported answer counts, frequency-ordered lists, topic-frequency analyses). Tier 1 = appears across several sources or at the top of a ranked list.",
+ "sources": {
+  "exponent_de": "https://www.aced.io/blog/top-data-engineering-interview-questions",
+  "exponent_ds": "https://www.aced.io/blog/data-science-interview-questions",
+  "iq_ds": "https://www.interviewquery.com/p/data-science-interview-questions",
+  "dataford_sql": "https://dataford.io/questions/lists/top-50-sql-questions",
+  "learnsql_metrics": "https://learnsql.com/blog/sql-metrics-real-interviews",
+  "datacamp_rag": "https://www.datacamp.com/blog/rag-interview-questions",
+  "towardsai_genai": "https://pub.towardsai.net/40-generative-ai-interview-questions-that-actually-get-asked-in-2026-with-answers-b4c647f1e2e8",
+  "powerbi_lists": "https://www.datacamp.com/blog/power-bi-interview-questions",
+  "dea_modelling": "https://dataengineeracademy.com/blog/common-data-modeling-interview-questions-for-data-engineers/"
+ },
+ "questions": [
+  {
+   "rank": 1,
+   "question": "Find the highest-paid employee in each department. Then the top 3. What changes with ties?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#1 (69 answers)",
+    "dataford_sql (ranking)",
+    "iq_ds#44"
+   ]
+  },
+  {
+   "rank": 2,
+   "question": "What is a p-value? Explain it to a non-technical person.",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#6",
+    "iq_ds#86"
+   ]
+  },
+  {
+   "rank": 3,
+   "question": "INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "dataford_sql#32",
+    "iq_ds#49",
+    "exponent_ds#19"
+   ]
+  },
+  {
+   "rank": 4,
+   "question": "Explain the bias-variance trade-off. How do you diagnose overfitting?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#38-39",
+    "iq_ds#39"
+   ]
+  },
+  {
+   "rank": 5,
+   "question": "Calculate a 7-day rolling average and a running total with window functions.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "dataford_sql#4-5,9 (top window questions)",
+    "exponent_de 'Employee Earnings' (76 answers)",
+    "learnsql_metrics"
+   ]
+  },
+  {
+   "rank": 6,
+   "question": "How would you design an A/B test? Walk through hypothesis, metric, sample size and duration.",
+   "topic": "experimentation",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#79",
+    "exponent_ds#5"
+   ]
+  },
+  {
+   "rank": 7,
+   "question": "Tell me about a time you made a mistake.",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#9 (110 answers)"
+   ]
+  },
+  {
+   "rank": 8,
+   "question": "Find and remove duplicate rows, keeping the first record.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de 'Remove Duplicate Emails' (70 answers)",
+    "dataford_sql#38,49"
+   ]
+  },
+  {
+   "rank": 9,
+   "question": "Data warehouse vs data lake vs lakehouse: what's the difference and when would you choose each?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#2"
+   ]
+  },
+  {
+   "rank": 10,
+   "question": "Your dataset is 99% one class. How do you handle the imbalance, and which metrics do you use?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#31,33",
+    "iq_ds#29"
+   ]
+  },
+  {
+   "rank": 11,
+   "question": "Calculate month-over-month growth in revenue or active users.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#52",
+    "exponent_de 'Monthly Post Success' (36 answers)",
+    "learnsql_metrics (growth)"
+   ]
+  },
+  {
+   "rank": 12,
+   "question": "Type I vs Type II errors: what are they, and which is worse for a given business problem?",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#7"
+   ]
+  },
+  {
+   "rank": 13,
+   "question": "Star schema vs snowflake schema. What are facts, dimensions and grain?",
+   "topic": "data-modelling",
+   "roles": [
+    "analyst",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#110",
+    "dea_modelling"
+   ]
+  },
+  {
+   "rank": 14,
+   "question": "A key metric dropped 10% overnight. How do you investigate?",
+   "topic": "product-metrics",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#14,22",
+    "exponent_ds#11"
+   ]
+  },
+  {
+   "rank": 15,
+   "question": "Calculate 30-day user retention by signup cohort.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "dataford_sql#7,14,16"
+   ]
+  },
+  {
+   "rank": 16,
+   "question": "Explain precision, recall, F1 and ROC-AUC. When is accuracy misleading?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#33,40",
+    "iq_ds#29"
+   ]
+  },
+  {
+   "rank": 17,
+   "question": "What is RAG, and why use it instead of fine-tuning or a bigger prompt?",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "datacamp_rag Q1",
+    "towardsai_genai"
+   ]
+  },
+  {
+   "rank": 18,
+   "question": "What is the medallion (bronze/silver/gold) architecture?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#7"
+   ]
+  },
+  {
+   "rank": 19,
+   "question": "Mean vs median: which do you report for skewed data like salaries or house prices?",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#2"
+   ]
+  },
+  {
+   "rank": 20,
+   "question": "Tell me about yourself (for a data role).",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#30 (126 answers)"
+   ]
+  },
+  {
+   "rank": 21,
+   "question": "How do you handle NULLs in SQL: in filters, aggregates, joins and comparisons?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "dataford_sql#36-37",
+    "iq_ds#40",
+    "exponent_de 'Test Scores' (27 answers)"
+   ]
+  },
+  {
+   "rank": 22,
+   "question": "How would you design a batch data pipeline end to end?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#4",
+    "techloy_de#1"
+   ]
+  },
+  {
+   "rank": 23,
+   "question": "Explain the Central Limit Theorem and why it matters.",
+   "topic": "stats",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#8"
+   ]
+  },
+  {
+   "rank": 24,
+   "question": "What are the assumptions of linear regression, and what happens when they break?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#27",
+    "datacamp_ds"
+   ]
+  },
+  {
+   "rank": 25,
+   "question": "ETL vs ELT: what's the difference and when would you choose each?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 1,
+   "evidence": [
+    "resumegeni_de#1",
+    "placementprep_de"
+   ]
+  },
+  {
+   "rank": 26,
+   "question": "How do you calculate a ratio metric safely in SQL (e.g. conversion rate) and avoid division errors?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "learnsql_metrics (ratio: 7 of 30)"
+   ]
+  },
+  {
+   "rank": 27,
+   "question": "Tell me about a time you disagreed with a stakeholder or colleague.",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#32 (70 answers)"
+   ]
+  },
+  {
+   "rank": 28,
+   "question": "How do you evaluate a RAG system? Retrieval vs generation metrics.",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "datacamp_rag",
+    "towardsai_genai"
+   ]
+  },
+  {
+   "rank": 29,
+   "question": "What is a confidence interval? What does '95% confidence' actually mean?",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_ds#9"
+   ]
+  },
+  {
+   "rank": 30,
+   "question": "Explain how k-fold cross-validation works and why you'd use it.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 1,
+   "evidence": [
+    "iq_ds#35",
+    "exponent_ds#29"
+   ]
+  },
+  {
+   "rank": 31,
+   "question": "Measures vs calculated columns in Power BI. When do you use each?",
+   "topic": "bi",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 1,
+   "evidence": [
+    "powerbi_lists (datacamp, sqlshack)"
+   ]
+  },
+  {
+   "rank": 32,
+   "question": "What is the project you're most proud of?",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 1,
+   "evidence": [
+    "exponent_de#33 (60 answers)"
+   ]
+  },
+  {
+   "rank": 33,
+   "question": "Find the second-highest (or Nth highest) value without using LIMIT/OFFSET.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "dataford_sql#1-3,42"
+   ]
+  },
+  {
+   "rank": 34,
+   "question": "CTEs vs subqueries vs temp tables: when do you use each?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "prachub_sql"
+   ]
+  },
+  {
+   "rank": 35,
+   "question": "A query is slow on a large table. How do you debug and optimise it?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "dataford_sql#20-23,41"
+   ]
+  },
+  {
+   "rank": 36,
+   "question": "GROUP BY with HAVING vs WHERE: what's the difference?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#18",
+    "exponent_de 'Instagram Likes' (47 answers)"
+   ]
+  },
+  {
+   "rank": 37,
+   "question": "When do you use CASE WHEN? Show conditional aggregation.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#46",
+    "exponent_de 'Test Scores'"
+   ]
+  },
+  {
+   "rank": 38,
+   "question": "Find customers with more than 3 transactions in each of two years.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#43"
+   ]
+  },
+  {
+   "rank": 39,
+   "question": "Gaps and islands: find each user's longest streak of consecutive active days.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#42",
+    "exponent_ds#25"
+   ]
+  },
+  {
+   "rank": 40,
+   "question": "UNION vs UNION ALL.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "glassdoor_data"
+   ]
+  },
+  {
+   "rank": 41,
+   "question": "TRUNCATE vs DELETE vs DROP.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "dataford_sql#40"
+   ]
+  },
+  {
+   "rank": 42,
+   "question": "Find records that have no match in another table (anti-join).",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#50"
+   ]
+  },
+  {
+   "rank": 43,
+   "question": "Primary key vs foreign key vs unique constraint.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#48"
+   ]
+  },
+  {
+   "rank": 44,
+   "question": "How do you detect and treat outliers?",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#4"
+   ]
+  },
+  {
+   "rank": 45,
+   "question": "Correlation vs causation: a correlation of 0.8, what can and can't you conclude?",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#3"
+   ]
+  },
+  {
+   "rank": 46,
+   "question": "What is selection bias? Give a real example.",
+   "topic": "stats",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#90",
+    "iq_ds#26"
+   ]
+  },
+  {
+   "rank": 47,
+   "question": "How do you choose the sample size for an experiment?",
+   "topic": "experimentation",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds (Tinder DS sample size)"
+   ]
+  },
+  {
+   "rank": 48,
+   "question": "What can go wrong in an A/B test? (peeking, novelty effect, network effects, multiple testing)",
+   "topic": "experimentation",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#81,84"
+   ]
+  },
+  {
+   "rank": 49,
+   "question": "When can't you run an A/B test, and what do you do instead?",
+   "topic": "experimentation",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#88"
+   ]
+  },
+  {
+   "rank": 50,
+   "question": "Explain logistic regression and how to interpret its coefficients.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#35"
+   ]
+  },
+  {
+   "rank": 51,
+   "question": "Random forest vs gradient boosting (XGBoost): how do they differ?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#28"
+   ]
+  },
+  {
+   "rank": 52,
+   "question": "How does a decision tree decide where to split?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#32"
+   ]
+  },
+  {
+   "rank": 53,
+   "question": "How do you handle missing data in a model?",
+   "topic": "ml",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#31,36",
+    "exponent_ds#17"
+   ]
+  },
+  {
+   "rank": 54,
+   "question": "How do you encode categorical variables? One-hot vs target encoding.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#30"
+   ]
+  },
+  {
+   "rank": 55,
+   "question": "What is data leakage and how do you prevent it?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "datacamp_ds",
+    "neurohive_ds"
+   ]
+  },
+  {
+   "rank": 56,
+   "question": "How do you explain a model's predictions to stakeholders? (feature importance, SHAP)",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "neurohive_ds"
+   ]
+  },
+  {
+   "rank": 57,
+   "question": "Regularisation: L1 vs L2.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "datacamp_ds"
+   ]
+  },
+  {
+   "rank": 58,
+   "question": "Classification vs regression, with an example of each.",
+   "topic": "ml",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#37",
+    "iq_ds#33"
+   ]
+  },
+  {
+   "rank": 59,
+   "question": "pandas: merge vs join vs concat. How do you avoid row explosion?",
+   "topic": "python",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#14-16"
+   ]
+  },
+  {
+   "rank": 60,
+   "question": "pandas: groupby with multiple aggregations, then filter groups.",
+   "topic": "python",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#13-14"
+   ]
+  },
+  {
+   "rank": 61,
+   "question": "Lists vs tuples; mutable vs immutable.",
+   "topic": "python",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#63-64"
+   ]
+  },
+  {
+   "rank": 62,
+   "question": "Remove duplicates and fill missing timestamps in a time series with pandas.",
+   "topic": "python",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_ds#17"
+   ]
+  },
+  {
+   "rank": 63,
+   "question": "Normalisation vs denormalisation: when do you denormalise?",
+   "topic": "data-modelling",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "dea_modelling"
+   ]
+  },
+  {
+   "rank": 64,
+   "question": "Slowly changing dimensions: Type 1 vs Type 2.",
+   "topic": "data-modelling",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "dea_modelling",
+    "udacity_de"
+   ]
+  },
+  {
+   "rank": 65,
+   "question": "Design a data warehouse schema for a ride-sharing service.",
+   "topic": "data-modelling",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#18",
+    "iq_ds#104"
+   ]
+  },
+  {
+   "rank": 66,
+   "question": "OLTP vs OLAP.",
+   "topic": "data-modelling",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#25"
+   ]
+  },
+  {
+   "rank": 67,
+   "question": "How do you make a pipeline idempotent?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "udacity_de",
+    "resumegeni_de"
+   ]
+  },
+  {
+   "rank": 68,
+   "question": "Full load vs incremental load. How do watermarks work?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "placementprep_de",
+    "udacity_de"
+   ]
+  },
+  {
+   "rank": 69,
+   "question": "How do you handle late-arriving data?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "placementprep_de"
+   ]
+  },
+  {
+   "rank": 70,
+   "question": "How do you ensure data quality in a pipeline?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "techloy_de#5",
+    "udacity_de"
+   ]
+  },
+  {
+   "rank": 71,
+   "question": "A nightly job fails 10% of the time. How do you handle it?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#15"
+   ]
+  },
+  {
+   "rank": 72,
+   "question": "Parquet vs Avro vs CSV.",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#8"
+   ]
+  },
+  {
+   "rank": 73,
+   "question": "Batch vs streaming: when do you need real-time?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "analyticsvidhya_de"
+   ]
+  },
+  {
+   "rank": 74,
+   "question": "Spark: wide vs narrow transformations, and what causes a shuffle?",
+   "topic": "spark-lakehouse",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#10"
+   ]
+  },
+  {
+   "rank": 75,
+   "question": "What is Delta Lake and what does it add to Parquet?",
+   "topic": "spark-lakehouse",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#12"
+   ]
+  },
+  {
+   "rank": 76,
+   "question": "Spark: how do you deal with data skew?",
+   "topic": "spark-lakehouse",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "analyticsvidhya_de"
+   ]
+  },
+  {
+   "rank": 77,
+   "question": "SQL vs NoSQL: when would you choose each?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "exponent_de#6",
+    "dataford_sql"
+   ]
+  },
+  {
+   "rank": 78,
+   "question": "What is chunking in RAG, and how do you choose chunk size?",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "datacamp_rag",
+    "zerotomastery_rag"
+   ]
+  },
+  {
+   "rank": 79,
+   "question": "What are embeddings? Semantic vs keyword (BM25) search, and hybrid search.",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "datacamp_rag",
+    "towardsai_genai"
+   ]
+  },
+  {
+   "rank": 80,
+   "question": "How do you reduce hallucinations in an LLM application?",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "towardsai_genai"
+   ]
+  },
+  {
+   "rank": 81,
+   "question": "Design a RAG system for customer support.",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "rag_bank (most-reported design question)"
+   ]
+  },
+  {
+   "rank": 82,
+   "question": "Star schema in Power BI: relationships, cardinality and filter direction.",
+   "topic": "bi",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "powerbi_lists"
+   ]
+  },
+  {
+   "rank": 83,
+   "question": "CALCULATE and filter context in DAX: explain with an example.",
+   "topic": "bi",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "powerbi_lists"
+   ]
+  },
+  {
+   "rank": 84,
+   "question": "How do you design a dashboard that people actually use?",
+   "topic": "bi",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 2,
+   "evidence": [
+    "glassdoor_data"
+   ]
+  },
+  {
+   "rank": 85,
+   "question": "How would you measure the success of a new feature?",
+   "topic": "product-metrics",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds#19,21,23"
+   ]
+  },
+  {
+   "rank": 86,
+   "question": "Explain a technical concept to a non-technical audience.",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds behavioural#2"
+   ]
+  },
+  {
+   "rank": 87,
+   "question": "Tell me about an analysis that drove a business decision.",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 2,
+   "evidence": [
+    "iq_ds behavioural#1"
+   ]
+  },
+  {
+   "rank": 88,
+   "question": "Self-joins: when would you use one?",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "dataford_sql#2"
+   ]
+  },
+  {
+   "rank": 89,
+   "question": "Pivot rows to columns in SQL.",
+   "topic": "sql",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 3,
+   "evidence": [
+    "interviewkickstart_sql"
+   ]
+  },
+  {
+   "rank": 90,
+   "question": "DDL vs DML vs DCL vs DQL.",
+   "topic": "sql",
+   "roles": [
+    "analyst",
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#53"
+   ]
+  },
+  {
+   "rank": 91,
+   "question": "Indexes: how they work and when they hurt.",
+   "topic": "sql",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "dataford_sql#21,23"
+   ]
+  },
+  {
+   "rank": 92,
+   "question": "MLE vs MAP.",
+   "topic": "stats",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#80"
+   ]
+  },
+  {
+   "rank": 93,
+   "question": "Explain Bayes' theorem with a real example.",
+   "topic": "stats",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds probability"
+   ]
+  },
+  {
+   "rank": 94,
+   "question": "What is the multiple testing problem?",
+   "topic": "experimentation",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#81"
+   ]
+  },
+  {
+   "rank": 95,
+   "question": "K-means: how it works and how you choose k.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_ds#27"
+   ]
+  },
+  {
+   "rank": 96,
+   "question": "PCA and dimensionality reduction, explained simply.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#37"
+   ]
+  },
+  {
+   "rank": 97,
+   "question": "Gradient descent: batch vs mini-batch vs stochastic.",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_ds#36"
+   ]
+  },
+  {
+   "rank": 98,
+   "question": "Which metric would you use for a regression model: MAE, RMSE or MAPE?",
+   "topic": "ml",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_ds#34"
+   ]
+  },
+  {
+   "rank": 99,
+   "question": "How would you forecast next year's revenue?",
+   "topic": "ml",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#100"
+   ]
+  },
+  {
+   "rank": 100,
+   "question": "Generators and iterators in Python, and why they save memory.",
+   "topic": "python",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "datacamp_de python"
+   ]
+  },
+  {
+   "rank": 101,
+   "question": "Multithreading vs multiprocessing.",
+   "topic": "python",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_de#28"
+   ]
+  },
+  {
+   "rank": 102,
+   "question": "How do you schedule dependencies between jobs (orchestration, DAGs)?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_de#14"
+   ]
+  },
+  {
+   "rank": 103,
+   "question": "Change data capture (CDC): what is it and why use it?",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "resumegeni_de"
+   ]
+  },
+  {
+   "rank": 104,
+   "question": "Partitioning vs bucketing / Z-ordering.",
+   "topic": "spark-lakehouse",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "analyticsvidhya_de"
+   ]
+  },
+  {
+   "rank": 105,
+   "question": "Design a clickstream data pipeline.",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "exponent_de#16"
+   ]
+  },
+  {
+   "rank": 106,
+   "question": "Data governance: lineage, access control and PII.",
+   "topic": "data-engineering",
+   "roles": [
+    "engineer",
+    "analyst"
+   ],
+   "tier": 3,
+   "evidence": [
+    "udacity_de"
+   ]
+  },
+  {
+   "rank": 107,
+   "question": "Prompting vs RAG vs fine-tuning: how do you decide?",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "towardsai_genai"
+   ]
+  },
+  {
+   "rank": 108,
+   "question": "What is the 'lost in the middle' problem?",
+   "topic": "llm-rag",
+   "roles": [
+    "scientist",
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "towardsai_genai Q11"
+   ]
+  },
+  {
+   "rank": 109,
+   "question": "Row-level security in Power BI.",
+   "topic": "bi",
+   "roles": [
+    "analyst"
+   ],
+   "tier": 3,
+   "evidence": [
+    "powerbi_lists"
+   ]
+  },
+  {
+   "rank": 110,
+   "question": "Estimate customer lifetime value for a young company.",
+   "topic": "product-metrics",
+   "roles": [
+    "analyst",
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#97",
+    "exponent_de LTV"
+   ]
+  },
+  {
+   "rank": 111,
+   "question": "Would a 50% discount for riders be a good idea? How do you evaluate it?",
+   "topic": "product-metrics",
+   "roles": [
+    "scientist"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds#98"
+   ]
+  },
+  {
+   "rank": 112,
+   "question": "Tell me about a time you cleaned and organised a messy dataset.",
+   "topic": "behavioural",
+   "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+   ],
+   "tier": 3,
+   "evidence": [
+    "iq_ds behavioural#10"
+   ]
+  }
+ ]
+}
