@@ -26,9 +26,9 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 
 | Interview | Questions answered | Case files | Prep page |
 |---|---:|---:|---|
-| Data Analyst (DA) | 1 / 60 | 1 | [Open](prep/data-analyst.md) |
-| Data Scientist (DS) | 1 / 76 | 1 | [Open](prep/data-scientist.md) |
-| Data Engineer (DE) | 1 / 51 | 1 | [Open](prep/data-engineer.md) |
+| Data Analyst (DA) | 1 / 60 | 0 | [Open](prep/data-analyst.md) |
+| Data Scientist (DS) | 1 / 76 | 0 | [Open](prep/data-scientist.md) |
+| Data Engineer (DE) | 1 / 51 | 0 | [Open](prep/data-engineer.md) |
 | ML / AI Engineer (ML) | 0 / 40 | 0 | [Open](prep/ml-engineer.md) |
 | Statistics & Experimentation (Stats) | 0 / 22 | 0 | [Open](prep/statistics.md) |
 
