@@ -6,6 +6,15 @@
   "question": "Find the highest-paid employee in each department. Then the top 3. What changes with ties?",
   "short_title": "Top earner per department (and what ties do)",
   "topic": "sql",
-  "roles": ["analyst", "scientist", "engineer"],
-  "tier": 1
+  "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+  ],
+  "tier": 1,
+  "tracks": [
+    "data-analyst",
+    "data-scientist",
+    "data-engineer"
+  ]
 }

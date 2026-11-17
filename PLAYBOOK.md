@@ -46,12 +46,14 @@ Follow `questions/_template/README.md` exactly. `questions/001-top-earner-per-de
 ```json
 {"number": N, "rank": R, "date": "YYYY-MM-DD", "slug": "<NNN>-<short-kebab>",
  "question": "<question exactly as in questions.json>", "short_title": "<under 60 characters>",
- "topic": "<topic>", "roles": [...], "tier": T}
+ "topic": "<topic>", "roles": [...], "tier": T, "tracks": [...]}
 ```
+
+Copy `tracks` exactly from the `next_question.py` output (it comes from `questions.json`). Tracks drive the prep pages: `data-analyst`, `data-scientist`, `data-engineer`, `ml-engineer`, `statistics`. CI regenerates `prep/*.md` and the README after you push. Never edit them by hand.
 
 ## 5. Commit to main and notify
 
-- Change **only** `questions/<NNN>-<slug>/`. CI rebuilds the README index.
+- Change **only** `questions/<NNN>-<slug>/`. CI rebuilds the README index and the prep pages.
 - `git add questions/<NNN>-<slug> && git commit -m "Q-<NNN>: <short_title>"`, then `git -c push.negotiate=true push origin main`.
 - Send **one** SendUserMessage as a flashcard:
   ```

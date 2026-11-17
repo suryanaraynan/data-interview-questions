@@ -22,13 +22,23 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 ## Questions
 
 <!-- INDEX:START -->
-**1 question answered** · SQL: 1
+### Prep by interview type
 
-### SQL
+| Interview | Questions answered | Case files | Prep page |
+|---|---:|---:|---|
+| Data Analyst (DA) | 1 / 60 | 0 | [Open](prep/data-analyst.md) |
+| Data Scientist (DS) | 1 / 76 | 0 | [Open](prep/data-scientist.md) |
+| Data Engineer (DE) | 1 / 51 | 0 | [Open](prep/data-engineer.md) |
+| ML / AI Engineer (ML) | 0 / 40 | 0 | [Open](prep/ml-engineer.md) |
+| Statistics & Experimentation (Stats) | 0 / 22 | 0 | [Open](prep/statistics.md) |
 
-| # | Question | Roles | Tier |
+### Answered so far: 1
+
+**SQL**
+
+| # | Question | Tracks | Tier |
 |---:|---|---|:---:|
-| 001 | [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](questions/001-top-earner-per-department/) | Analyst, Scientist, Engineer | 1 |
+| 001 | [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](questions/001-top-earner-per-department/) | `DA` `DS` `DE` | 1 |
 <!-- INDEX:END -->
 
 ## Run an example
