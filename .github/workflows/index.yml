@@ -1,4 +1,4 @@
-name: Rebuild index and prep pages
+name: Rebuild index, prep pages and answer navigation
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - run: python tools/build_index.py --case-repo _case
       - name: Commit if changed
         run: |
-          git add README.md prep/
+          git add README.md prep/ questions/*/README.md
           if ! git diff --cached --quiet; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

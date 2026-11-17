@@ -2,7 +2,7 @@
 
 SQL, data modelling, pipelines, Spark/lakehouse and data quality.
 
-**1 of 51 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**1 of 51 questions answered** · **1 case file** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
@@ -98,4 +98,6 @@ SQL, data modelling, pipelines, Spark/lakehouse and data quality.
 
 Worked, real-world examples with a STAR interview script (`INTERVIEW.md`) in each folder.
 
-*None yet.*
+| # | Case file | Concept |
+|---:|---|---|
+| 001 | [Is A&E demand rising, or is it just Monday?](https://github.com/suryanaraynan/data-explained/tree/main/posts/2026-11-17-ae-mondays-rolling-average/) ([interview script](https://github.com/suryanaraynan/data-explained/tree/main/posts/2026-11-17-ae-mondays-rolling-average/INTERVIEW.md)) | window functions rolling averages |

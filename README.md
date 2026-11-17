@@ -8,7 +8,7 @@ Every question has:
 |---|---|
 | The 30-second answer | What to say first, in spoken English |
 | The deeper answer | What turns a correct answer into a strong one |
-| Example | Runnable SQL / Python with real output, and a visual where it helps |
+| Two worked examples | Two industries, where the second adds a twist that changes the right choice. Runnable, with real output |
 | Common wrong answers | The traps interviewers are listening for |
 | Follow-ups | The next questions they'll ask, with short answers |
 | Explain it to a non-technical person | Because half of every data job is this |
@@ -26,9 +26,9 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 
 | Interview | Questions answered | Case files | Prep page |
 |---|---:|---:|---|
-| Data Analyst (DA) | 1 / 60 | 0 | [Open](prep/data-analyst.md) |
-| Data Scientist (DS) | 1 / 76 | 0 | [Open](prep/data-scientist.md) |
-| Data Engineer (DE) | 1 / 51 | 0 | [Open](prep/data-engineer.md) |
+| Data Analyst (DA) | 1 / 60 | 1 | [Open](prep/data-analyst.md) |
+| Data Scientist (DS) | 1 / 76 | 1 | [Open](prep/data-scientist.md) |
+| Data Engineer (DE) | 1 / 51 | 1 | [Open](prep/data-engineer.md) |
 | ML / AI Engineer (ML) | 0 / 40 | 0 | [Open](prep/ml-engineer.md) |
 | Statistics & Experimentation (Stats) | 0 / 22 | 0 | [Open](prep/statistics.md) |
 

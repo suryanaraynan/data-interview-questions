@@ -79,6 +79,32 @@ for track, label in TRACKS.items():
         out.append("*None yet.*")
     (ROOT / "prep" / f"{track}.md").write_text("\n".join(out).rstrip() + "\n")
 
+# ---------------- per-answer navigation bar (links each answer back to its prep pages
+# and to the previous / next answered question in the same topic)
+NAV_S, NAV_E = "<!-- NAV:START -->", "<!-- NAV:END -->"
+by_topic = {}
+for m in sorted(answered.values(), key=lambda m: m["number"]):
+    by_topic.setdefault(m["topic"], []).append(m)
+for m in answered.values():
+    page = ROOT / "questions" / m["slug"] / "README.md"
+    if not page.exists():
+        continue
+    peers = by_topic[m["topic"]]
+    i = peers.index(m)
+    prev_ = f"[← Q-{peers[i-1]['number']:03d}](../{peers[i-1]['slug']}/)" if i > 0 else "← (first)"
+    next_ = f"[Q-{peers[i+1]['number']:03d} →](../{peers[i+1]['slug']}/)" if i + 1 < len(peers) else "(latest) →"
+    preps = " · ".join(f"[{TRACKS[t]}](../../prep/{t}.md)" for t in m.get("tracks", []) if t in TRACKS)
+    nav = (f"> **Prep pages:** {preps}  \n"
+           f"> **More {TOPIC.get(m['topic'], m['topic'])}:** {prev_} · {next_} · "
+           f"[all questions](../../README.md#prep-by-interview-type)")
+    text = page.read_text()
+    if NAV_S not in text:
+        h1_end = text.index("\n") + 1
+        text = text[:h1_end] + f"\n{NAV_S}\n{NAV_E}\n" + text[h1_end:]
+    head, rest = text.split(NAV_S, 1)
+    _, tail = rest.split(NAV_E, 1)
+    page.write_text(f"{head}{NAV_S}\n{nav}\n{NAV_E}{tail}")
+
 # ---------------- README index
 qs_done = sorted(answered.values(), key=lambda m: m["number"])
 counts = Counter(q["topic"] for q in qs_done)
