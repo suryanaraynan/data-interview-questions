@@ -7,8 +7,9 @@ Rhythm: about 2 questions a week, on irregular days, never on a day when somethi
 else went out. Together with 2-3 Data Explained case files and a weekly project
 milestone, that keeps Surya visibly active on 5-6 days a week.
   - Skip if a case file went out today (a post/<today>-* branch on data-explained, or a
-    posts/<today>-* folder merged to its main), or a project milestone went out today
-    (a milestone/<today>-* branch on a project repo).
+    posts/<today>-* folder merged to its main), or Surya pushed project work today
+    (the latest commit on a project repo's default branch is dated today, or a
+    milestone/<today>-* branch exists).
   - At most one question a day, and at most 2 in any 7 days.
   - Never on consecutive days. Otherwise post with a probability that rises with the
     days since the last question; always post once 3 days have passed.
@@ -48,10 +49,16 @@ def other_activity_today(today: str):
             if any(p.startswith(f"posts/{today}-") for p in tree.split()):
                 return True, "case file merged today"
     for repo in PROJECT_REPOS:
+        name = repo.rsplit("/", 1)[-1]
         code, out = sh("git", "ls-remote", repo, "refs/heads/milestone/*")
         if code == 0 and any(line.split("\t")[-1].startswith(f"refs/heads/milestone/{today}-")
                              for line in out.splitlines()):
-            return True, f"project milestone opened today ({repo.rsplit('/', 1)[-1]})"
+            return True, f"project milestone opened today ({name})"
+        with tempfile.TemporaryDirectory() as tmp:
+            if sh("git", "clone", "-q", "--depth", "1", "--filter=blob:none", "--no-checkout", repo, tmp)[0] == 0:
+                _, when = sh("git", "log", "-1", "--format=%cs", cwd=tmp)
+                if when.strip() == today:
+                    return True, f"project work pushed today ({name})"
     return False, "nothing else posted today"
 
 

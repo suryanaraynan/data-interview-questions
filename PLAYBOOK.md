@@ -1,6 +1,6 @@
 # Playbook for scheduled runs
 
-This file is the instruction set for the scheduled Claude run that answers about **two interview questions a week**, on irregular days when nothing else goes out (no [Data Explained](https://github.com/suryanaraynan/data-explained) case file, no project milestone). Together that keeps Surya active on 5–6 days a week. Each run starts with no memory, so everything it needs is here.
+This file is the instruction set for the scheduled Claude run that answers about **two interview questions a week**, on irregular days when nothing else goes out (no [Data Explained](https://github.com/suryanaraynan/data-explained) case file, and no project work pushed to a project repo). Together that keeps Surya active on 5–6 days a week. Each run starts with no memory, so everything it needs is here.
 
 **Questions are committed straight to `main`** (Surya chose this; they're short, and he reads them as a daily flashcard). That makes accuracy the whole job: never publish anything you haven't checked.
 
