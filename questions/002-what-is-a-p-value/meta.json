@@ -1,0 +1,19 @@
+{
+  "number": 2,
+  "rank": 2,
+  "date": "2026-11-20",
+  "slug": "002-what-is-a-p-value",
+  "question": "What is a p-value? Explain it to a non-technical person.",
+  "short_title": "What a p-value is (and what it isn't)",
+  "topic": "stats",
+  "roles": [
+    "analyst",
+    "scientist"
+  ],
+  "tier": 1,
+  "tracks": [
+    "data-analyst",
+    "data-scientist",
+    "statistics"
+  ]
+}
