@@ -2,14 +2,14 @@
 
 SQL fluency, metrics, BI and turning numbers into decisions.
 
-**1 of 60 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**2 of 60 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
 ## Start here: most-asked (tier 1)
 
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/)
-- What is a p-value? Explain it to a non-technical person. *(answer coming)*
+- [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/)
 - INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters? *(answer coming)*
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)*
 - How would you design an A/B test? Walk through hypothesis, metric, sample size and duration. *(answer coming)*
@@ -59,7 +59,7 @@ SQL fluency, metrics, BI and turning numbers into decisions.
 
 ### Statistics
 
-- What is a p-value? Explain it to a non-technical person. *(answer coming)* · tier 1
+- [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/) · tier 1
 - Type I vs Type II errors: what are they, and which is worse for a given business problem? *(answer coming)* · tier 1
 - Mean vs median: which do you report for skewed data like salaries or house prices? *(answer coming)* · tier 1
 - What is a confidence interval? What does '95% confidence' actually mean? *(answer coming)* · tier 1

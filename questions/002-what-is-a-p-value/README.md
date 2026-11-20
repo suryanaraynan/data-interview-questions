@@ -1,6 +1,8 @@
 # Q-002: What is a p-value? Explain it to a non-technical person.
 
 <!-- NAV:START -->
+> **Prep pages:** [Data Analyst (DA)](../../prep/data-analyst.md) · [Data Scientist (DS)](../../prep/data-scientist.md) · [Statistics & Experimentation (Stats)](../../prep/statistics.md)  
+> **More Statistics:** ← (first) · (latest) → · [all questions](../../README.md#prep-by-interview-type)
 <!-- NAV:END -->
 
 **Roles:** Analyst · Scientist · **Topic:** Statistics (hypothesis testing) · **How often it's asked:** Tier 1. It appears in both Exponent's data-science interview list (#6) and Interview Query's data-science question list; sources are in [`questions.json`](../../questions.json).

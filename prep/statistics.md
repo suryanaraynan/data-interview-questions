@@ -2,13 +2,13 @@
 
 Probability, inference, hypothesis tests and experiment design.
 
-**0 of 22 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**1 of 22 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
 ## Start here: most-asked (tier 1)
 
-- What is a p-value? Explain it to a non-technical person. *(answer coming)*
+- [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/)
 - How would you design an A/B test? Walk through hypothesis, metric, sample size and duration. *(answer coming)*
 - Tell me about a time you made a mistake. *(answer coming)*
 - Type I vs Type II errors: what are they, and which is worse for a given business problem? *(answer coming)*
@@ -23,7 +23,7 @@ Probability, inference, hypothesis tests and experiment design.
 
 ### Statistics
 
-- What is a p-value? Explain it to a non-technical person. *(answer coming)* · tier 1
+- [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/) · tier 1
 - Type I vs Type II errors: what are they, and which is worse for a given business problem? *(answer coming)* · tier 1
 - Mean vs median: which do you report for skewed data like salaries or house prices? *(answer coming)* · tier 1
 - Explain the Central Limit Theorem and why it matters. *(answer coming)* · tier 1
