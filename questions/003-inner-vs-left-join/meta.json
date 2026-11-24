@@ -1,0 +1,20 @@
+{
+  "number": 3,
+  "rank": 3,
+  "date": "2026-11-24",
+  "slug": "003-inner-vs-left-join",
+  "question": "INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?",
+  "short_title": "INNER vs LEFT JOIN (and filters in ON vs WHERE)",
+  "topic": "sql",
+  "roles": [
+    "analyst",
+    "scientist",
+    "engineer"
+  ],
+  "tier": 1,
+  "tracks": [
+    "data-analyst",
+    "data-scientist",
+    "data-engineer"
+  ]
+}
