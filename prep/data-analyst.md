@@ -2,7 +2,7 @@
 
 SQL fluency, metrics, BI and turning numbers into decisions.
 
-**2 of 60 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**3 of 60 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
@@ -10,7 +10,7 @@ SQL fluency, metrics, BI and turning numbers into decisions.
 
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/)
 - [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/)
-- INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters? *(answer coming)*
+- [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](../questions/003-inner-vs-left-join/)
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)*
 - How would you design an A/B test? Walk through hypothesis, metric, sample size and duration. *(answer coming)*
 - Tell me about a time you made a mistake. *(answer coming)*
@@ -35,7 +35,7 @@ SQL fluency, metrics, BI and turning numbers into decisions.
 ### SQL
 
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/) · tier 1
-- INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters? *(answer coming)* · tier 1
+- [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](../questions/003-inner-vs-left-join/) · tier 1
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)* · tier 1
 - Find and remove duplicate rows, keeping the first record. *(answer coming)* · tier 1
 - Calculate month-over-month growth in revenue or active users. *(answer coming)* · tier 1

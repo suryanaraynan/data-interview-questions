@@ -2,7 +2,7 @@
 
 <!-- NAV:START -->
 > **Prep pages:** [Data Analyst (DA)](../../prep/data-analyst.md) · [Data Scientist (DS)](../../prep/data-scientist.md) · [Data Engineer (DE)](../../prep/data-engineer.md)  
-> **More SQL:** ← (first) · (latest) → · [all questions](../../README.md#prep-by-interview-type)
+> **More SQL:** ← (first) · [Q-003 →](../003-inner-vs-left-join/) · [all questions](../../README.md#prep-by-interview-type)
 <!-- NAV:END -->
 
 **Roles:** Analyst · Scientist · Engineer · **Topic:** SQL (window functions, ranking) · **How often it's asked:** Tier 1. It's the most-reported SQL question in Exponent's data-engineering list (69 candidate answers), and "top N per group" questions fill the ranking section of Dataford's frequency-ranked top-50 SQL list.

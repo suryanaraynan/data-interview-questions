@@ -2,14 +2,14 @@
 
 SQL, data modelling, pipelines, Spark/lakehouse and data quality.
 
-**1 of 51 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**2 of 51 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
 ## Start here: most-asked (tier 1)
 
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/)
-- INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters? *(answer coming)*
+- [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](../questions/003-inner-vs-left-join/)
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)*
 - Tell me about a time you made a mistake. *(answer coming)*
 - Find and remove duplicate rows, keeping the first record. *(answer coming)*
@@ -28,7 +28,7 @@ SQL, data modelling, pipelines, Spark/lakehouse and data quality.
 ### SQL
 
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/) · tier 1
-- INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters? *(answer coming)* · tier 1
+- [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](../questions/003-inner-vs-left-join/) · tier 1
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)* · tier 1
 - Find and remove duplicate rows, keeping the first record. *(answer coming)* · tier 1
 - How do you handle NULLs in SQL: in filters, aggregates, joins and comparisons? *(answer coming)* · tier 1

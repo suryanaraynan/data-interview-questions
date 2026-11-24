@@ -26,19 +26,20 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 
 | Interview | Questions answered | Case files | Prep page |
 |---|---:|---:|---|
-| Data Analyst (DA) | 2 / 60 | 0 | [Open](prep/data-analyst.md) |
-| Data Scientist (DS) | 2 / 76 | 0 | [Open](prep/data-scientist.md) |
-| Data Engineer (DE) | 1 / 51 | 0 | [Open](prep/data-engineer.md) |
+| Data Analyst (DA) | 3 / 60 | 0 | [Open](prep/data-analyst.md) |
+| Data Scientist (DS) | 3 / 76 | 0 | [Open](prep/data-scientist.md) |
+| Data Engineer (DE) | 2 / 51 | 0 | [Open](prep/data-engineer.md) |
 | ML / AI Engineer (ML) | 0 / 40 | 0 | [Open](prep/ml-engineer.md) |
 | Statistics & Experimentation (Stats) | 1 / 22 | 0 | [Open](prep/statistics.md) |
 
-### Answered so far: 2
+### Answered so far: 3
 
 **SQL**
 
 | # | Question | Tracks | Tier |
 |---:|---|---|:---:|
 | 001 | [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](questions/001-top-earner-per-department/) | `DA` `DS` `DE` | 1 |
+| 003 | [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](questions/003-inner-vs-left-join/) | `DA` `DS` `DE` | 1 |
 
 **Statistics**
 

@@ -1,6 +1,8 @@
 # Q-003: INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?
 
 <!-- NAV:START -->
+> **Prep pages:** [Data Analyst (DA)](../../prep/data-analyst.md) · [Data Scientist (DS)](../../prep/data-scientist.md) · [Data Engineer (DE)](../../prep/data-engineer.md)  
+> **More SQL:** [← Q-001](../001-top-earner-per-department/) · (latest) → · [all questions](../../README.md#prep-by-interview-type)
 <!-- NAV:END -->
 
 **Roles:** Analyst · Scientist · Engineer · **Topic:** SQL (joins, filters in ON vs WHERE) · **How often it's asked:** Tier 1. It appears in Dataford's frequency-ranked top-50 SQL list (#32), Interview Query's data-science question list (#49) and Exponent's data-science interview list (#19); sources are in [`questions.json`](../../questions.json).
