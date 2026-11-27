@@ -1,6 +1,8 @@
 # Q-004: Explain the bias-variance trade-off. How do you diagnose overfitting?
 
 <!-- NAV:START -->
+> **Prep pages:** [Data Scientist (DS)](../../prep/data-scientist.md) · [ML / AI Engineer (ML)](../../prep/ml-engineer.md)  
+> **More Machine learning:** ← (first) · (latest) → · [all questions](../../README.md#prep-by-interview-type)
 <!-- NAV:END -->
 
 **Roles:** Scientist · **Topic:** Machine learning (model complexity, validation) · **How often it's asked:** Tier 1. It appears in Exponent's data-science interview list (#38–39) and Interview Query's data-science question list (#39); sources are in [`questions.json`](../../questions.json).

@@ -2,7 +2,7 @@
 
 SQL, statistics, experiments, ML and product sense.
 
-**3 of 76 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**4 of 76 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
@@ -11,7 +11,7 @@ SQL, statistics, experiments, ML and product sense.
 - [Find the highest-paid employee in each department. Then the top 3. What changes with ties?](../questions/001-top-earner-per-department/)
 - [What is a p-value? Explain it to a non-technical person.](../questions/002-what-is-a-p-value/)
 - [INNER JOIN vs LEFT JOIN: when do you use each, and what goes wrong with LEFT JOIN filters?](../questions/003-inner-vs-left-join/)
-- Explain the bias-variance trade-off. How do you diagnose overfitting? *(answer coming)*
+- [Explain the bias-variance trade-off. How do you diagnose overfitting?](../questions/004-bias-variance-trade-off/)
 - Calculate a 7-day rolling average and a running total with window functions. *(answer coming)*
 - How would you design an A/B test? Walk through hypothesis, metric, sample size and duration. *(answer coming)*
 - Tell me about a time you made a mistake. *(answer coming)*
@@ -81,7 +81,7 @@ SQL, statistics, experiments, ML and product sense.
 
 ### Machine learning
 
-- Explain the bias-variance trade-off. How do you diagnose overfitting? *(answer coming)* · tier 1
+- [Explain the bias-variance trade-off. How do you diagnose overfitting?](../questions/004-bias-variance-trade-off/) · tier 1
 - Your dataset is 99% one class. How do you handle the imbalance, and which metrics do you use? *(answer coming)* · tier 1
 - Explain precision, recall, F1 and ROC-AUC. When is accuracy misleading? *(answer coming)* · tier 1
 - What are the assumptions of linear regression, and what happens when they break? *(answer coming)* · tier 1

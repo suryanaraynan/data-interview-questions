@@ -2,13 +2,13 @@
 
 ML fundamentals, evaluation, Python and LLM/RAG systems.
 
-**0 of 40 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
+**1 of 40 questions answered** · **0 case files** · Tier 1 = asked most often, so start there.
 
 ← [All interview types](../README.md#prep-by-interview-type)
 
 ## Start here: most-asked (tier 1)
 
-- Explain the bias-variance trade-off. How do you diagnose overfitting? *(answer coming)*
+- [Explain the bias-variance trade-off. How do you diagnose overfitting?](../questions/004-bias-variance-trade-off/)
 - Tell me about a time you made a mistake. *(answer coming)*
 - Your dataset is 99% one class. How do you handle the imbalance, and which metrics do you use? *(answer coming)*
 - Explain precision, recall, F1 and ROC-AUC. When is accuracy misleading? *(answer coming)*
@@ -24,7 +24,7 @@ ML fundamentals, evaluation, Python and LLM/RAG systems.
 
 ### Machine learning
 
-- Explain the bias-variance trade-off. How do you diagnose overfitting? *(answer coming)* · tier 1
+- [Explain the bias-variance trade-off. How do you diagnose overfitting?](../questions/004-bias-variance-trade-off/) · tier 1
 - Your dataset is 99% one class. How do you handle the imbalance, and which metrics do you use? *(answer coming)* · tier 1
 - Explain precision, recall, F1 and ROC-AUC. When is accuracy misleading? *(answer coming)* · tier 1
 - What are the assumptions of linear regression, and what happens when they break? *(answer coming)* · tier 1

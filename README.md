@@ -27,12 +27,12 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 | Interview | Questions answered | Case files | Prep page |
 |---|---:|---:|---|
 | Data Analyst (DA) | 3 / 60 | 0 | [Open](prep/data-analyst.md) |
-| Data Scientist (DS) | 3 / 76 | 0 | [Open](prep/data-scientist.md) |
+| Data Scientist (DS) | 4 / 76 | 0 | [Open](prep/data-scientist.md) |
 | Data Engineer (DE) | 2 / 51 | 0 | [Open](prep/data-engineer.md) |
-| ML / AI Engineer (ML) | 0 / 40 | 0 | [Open](prep/ml-engineer.md) |
+| ML / AI Engineer (ML) | 1 / 40 | 0 | [Open](prep/ml-engineer.md) |
 | Statistics & Experimentation (Stats) | 1 / 22 | 0 | [Open](prep/statistics.md) |
 
-### Answered so far: 3
+### Answered so far: 4
 
 **SQL**
 
@@ -46,6 +46,12 @@ Role coverage: **Analyst** (SQL, metrics, BI), **Scientist** (stats, experiments
 | # | Question | Tracks | Tier |
 |---:|---|---|:---:|
 | 002 | [What is a p-value? Explain it to a non-technical person.](questions/002-what-is-a-p-value/) | `DA` `DS` `Stats` | 1 |
+
+**Machine learning**
+
+| # | Question | Tracks | Tier |
+|---:|---|---|:---:|
+| 004 | [Explain the bias-variance trade-off. How do you diagnose overfitting?](questions/004-bias-variance-trade-off/) | `DS` `ML` | 1 |
 <!-- INDEX:END -->
 
 ## Run an example
