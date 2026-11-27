@@ -1,0 +1,17 @@
+{
+  "number": 4,
+  "rank": 4,
+  "date": "2026-11-27",
+  "slug": "004-bias-variance-trade-off",
+  "question": "Explain the bias-variance trade-off. How do you diagnose overfitting?",
+  "short_title": "Bias-variance trade-off (and diagnosing overfitting)",
+  "topic": "ml",
+  "roles": [
+    "scientist"
+  ],
+  "tier": 1,
+  "tracks": [
+    "data-scientist",
+    "ml-engineer"
+  ]
+}
